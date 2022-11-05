@@ -1,0 +1,65 @@
+body{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMdo3Yt96brcBFc_iw1vby8rvm-ROM1dSreA&usqp=CAU');
+
+}
+
+h1{
+  font-size:80px;
+  color:rgb(0, 174, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+display: flex;
+justify-content: center;
+}
+
+h2{
+  font-size:40px;
+  color:rgb(13, 213, 228);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+  font-size:20px;
+  color:rgb(106, 248, 239);
+}
+
+a{
+  color:#ecf4f5;
+}
+
+img{
+  width:200px;height:200px;
+}
+
+.image{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.firstdive{
+  width: fit-content;
+  border-style: solid;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+}
+
+.pizzas{
+  font-size:15px;
+  color:#f5eded;
+  background-color: dimgray;
+   width: fit-content;
+  /* text-align: left; */
+}
+
+ol{
+  width: fit-content;
+  /* text-align: center; */
+  /* width: fit-content; */
+}
+li{
+  font-size: 50px;
+  background-color: dimgray;
+  font-style: oblique;
+}
