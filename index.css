@@ -2,7 +2,7 @@
 body{
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMdo3Yt96brcBFc_iw1vby8rvm-ROM1dSreA&usqp=CAU');
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 h1{
@@ -29,13 +29,15 @@ img{
 
 .image{
   display: flex;
-  justify-content: space-evenly;
-}
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+} 
 
 .firstdive{
   display: flex;
   flex-direction: column;
-  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: 'Courier New', Courier, monospace;
 }
 
 p{
@@ -46,7 +48,7 @@ p{
   /* text-align: left; */
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (max-width: 400px) {
   .image {
     display: flex;  
     flex-direction: column;
@@ -54,7 +56,7 @@ p{
 
   img {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
 
   p {
