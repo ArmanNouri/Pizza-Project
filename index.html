@@ -1,92 +1,93 @@
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" name="viewport" content="width=device-width, initial-scale=1.0, IE=edge">
     <link rel="stylesheet" href="index.css">
      <!-- linke bala mortabet konande be css -->
     <title>Pizza Site</title>
   </head>
   <body>
-    
-    <main>       
 
-      <!-- <div class="title">
-        <div id="navigation-container"> -->
-          <h1 >Pizza Shop</h1>
-          <ul>
+    <!-- Navigation bar -->
+    <header class="header">
+        <!-- Logo -->
+        <a href="#" class="logo">PS</a>
+          <!-- Hamburger icon -->
+      <input class="side-menu" type="checkbox" id="side-menu"/>
+      <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+      <!-- Menu -->
+      <nav class="nav">
+        <ul class="menu">
             <li><a href="#">Home</a></li>
+            <li><a href="#">Order</a> </li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Get in Touch</a></li>
-          </ul>
-        <!-- </div>
-      </div> -->
+            <li><a href="#">Keep in touch</a></li>
+        </ul>
+      </nav>
+    </header>
+  
+    <div class="title1" >
+      <h2>Welcome to this pizza shop</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bwGE1Ggd2kQ" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>
+    </div>
 
-      <div class="firstdive">
+    <div class="image">
       
-        <div class="title1" >
-          <h2>Welcome to this pizza shop</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/bwGE1Ggd2kQ" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>
-        </div>
+      <div class="Pizzas">
+        <p>Diavola Pizza</p>
+        <a target="_blank" href="https://www.zomato.com/london/dominos-pizza-southgate/menu">
+        <img class="img1" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2014%2F07%2F10%2Fpepperoni-pizza-ck-x.jpg&q=60" alt="A Diavola Pizza."></a>
+        </a>
+      </div> 
 
-        <div class="image">
-          
-          <div class="Pizzas">
-            <p>Diavola Pizza</p>
-            <a target="_blank" href="https://www.zomato.com/london/dominos-pizza-southgate/menu">
-            <img class="img1" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2014%2F07%2F10%2Fpepperoni-pizza-ck-x.jpg&q=60" alt="A Diavola Pizza."></a>
-            </a>
-          </div> 
-
-          <div class="Pizzas">
-            <p>Margherita Pizza</p>
-            <img class="img2" src="https://cdn.shopify.com/s/files/1/0624/9853/articles/20220211142645-margherita-9920.jpg?crop=center&height=800&v=1660843558&width=800" alt="A Margherita Pizza."></a>
-          </div>
-
-          <div class="Pizzas">
-            <p>Vegeteriana Pizza</p>
-            <img class="img3" src="vegeteriana.jpg" alt="A Vegeteriana Pizza."></a>
-          </div>
-
-          <div class="Pizzas">
-            <p>Ham Pizza</p>
-            <img class="img4" src="ham.jpg" alt="A Ham Pizza."></a>
-          </div>
-          
-        </div><br><br>
-
-        <!-- form baraye ordere pizza -->
-        <div>
-          <form action="https://formsubmit.co/el/dirogi/openeyesn2y@gmail.com" method="POST" class="lableform"> 
-
-            <h2 class="title1" >For ordering your pizza please complete this form</h2>
-
-            <lable for="flname">First and last name:</label><br>
-            <input class="input-info" type="text" id="flname" name="flname" placeholder="Name"><br>
-
-            <lable for="npizza">How many pizzas do you want:</lable><br>
-            <input class="input-info" type="number" id="npizza" name="npizza" placeholder="Number"><br>
-
-            <label for="hadress">Where is your address:</label><br>
-            <input class="input-info" type="adress" id="hadress" name="hadress" placeholder="Adress"><br><br>
-
-            <input type="checkbox" id="checkbox" name="fpizza">
-            <label for="fpizza">Do you want a free pizza:</label><br><br>
-
-            <input type="radio" id="Margherita" name="kind-pizza" value="pizza">
-            <label for="Margherita">Margherita</label><br>
-
-            <input type="radio" id="Diavola" name="kind-pizza" value="pizza">
-            <label for="Diavola">Diavola</label><br><br>
-
-            <label for="comment">Write what you want more</label><br>
-            <textarea name="comment" form="usrform" placeholder="what u want"></textarea><br><br>
-      
-             <button class="submitbutton" type="submit">Send</button>
-
-          </form><br><br>
-        </div>
-
+      <div class="Pizzas">
+        <p>Margherita Pizza</p>
+        <img class="img2" src="https://cdn.shopify.com/s/files/1/0624/9853/articles/20220211142645-margherita-9920.jpg?crop=center&height=800&v=1660843558&width=800" alt="A Margherita Pizza."></a>
       </div>
-    </main>
+
+      <div class="Pizzas">
+        <p>Vegeteriana Pizza</p>
+        <img class="img3" src="vegeteriana.jpg" alt="A Vegeteriana Pizza."></a>
+      </div>
+
+      <div class="Pizzas">
+        <p>Ham Pizza</p>
+        <img class="img4" src="ham.jpg" alt="A Ham Pizza."></a>
+      </div>
+      
+    </div><br><br>
+
+    <!-- form baraye ordere pizza -->
+    <div>
+      <form action="https://formsubmit.co/el/dirogi/openeyesn2y@gmail.com" method="POST" class="lableform"> 
+
+        <h2 class="title1" >For ordering your pizza please complete this form</h2>
+
+        <lable for="flname">First and last name:</label><br>
+        <input class="input-info" type="text" id="flname" name="flname" placeholder="Name"><br>
+
+        <lable for="npizza">How many pizzas do you want:</lable><br>
+        <input class="input-info" type="number" id="npizza" name="npizza" placeholder="Number"><br>
+
+        <label for="hadress">Where is your address:</label><br>
+        <input class="input-info" type="adress" id="hadress" name="hadress" placeholder="Adress"><br><br>
+
+        <input type="checkbox" id="checkbox" name="fpizza">
+        <label for="fpizza">Do you want a free pizza:</label><br><br>
+
+        <input type="radio" id="Margherita" name="kind-pizza" value="pizza">
+        <label for="Margherita">Margherita</label><br>
+
+        <input type="radio" id="Diavola" name="kind-pizza" value="pizza">
+        <label for="Diavola">Diavola</label><br><br>
+
+        <label for="comment">Write what you want more</label><br>
+        <textarea name="comment" form="usrform" placeholder="what u want"></textarea><br><br>
+  
+          <button class="submitbutton" type="submit">Send</button>
+
+      </form><br><br>
+    </div>
+
   </body>
 </html>
