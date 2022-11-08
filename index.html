@@ -7,17 +7,25 @@
     <title>Pizza Site</title>
   </head>
   <body>
-    <main>
+    
+    <main>       
 
-      <div class="title">
-        <h1>Pizza Shop</h1>
-      </div>
+      <!-- <div class="title">
+        <div id="navigation-container"> -->
+          <h1 >Pizza Shop</h1>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Get in Touch</a></li>
+          </ul>
+        <!-- </div>
+      </div> -->
 
       <div class="firstdive">
       
-        <div class="title1">
+        <div class="title1" >
           <h2>Welcome to this pizza shop</h2>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/bwGE1Ggd2kQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bwGE1Ggd2kQ" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>
         </div>
 
         <div class="image">
@@ -50,13 +58,16 @@
         <div>
           <form action="https://formsubmit.co/el/dirogi/openeyesn2y@gmail.com" method="POST" class="lableform"> 
 
+            <h2 class="title1" >For ordering your pizza please complete this form</h2>
+
             <lable for="flname">First and last name:</label><br>
-            <input type="text" id="flname" name="flname" placeholder="Name"><br>
+            <input class="input-info" type="text" id="flname" name="flname" placeholder="Name"><br>
+
             <lable for="npizza">How many pizzas do you want:</lable><br>
-            <input type="number" id="npizza" name="npizza" placeholder="Number"><br>
+            <input class="input-info" type="number" id="npizza" name="npizza" placeholder="Number"><br>
 
             <label for="hadress">Where is your address:</label><br>
-            <input type="adress" id="hadress" name="hadress" placeholder="Adress"><br><br>
+            <input class="input-info" type="adress" id="hadress" name="hadress" placeholder="Adress"><br><br>
 
             <input type="checkbox" id="checkbox" name="fpizza">
             <label for="fpizza">Do you want a free pizza:</label><br><br>
