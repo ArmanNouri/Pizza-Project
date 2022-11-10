@@ -7,143 +7,11 @@
 
 
 body{
-  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMdo3Yt96brcBFc_iw1vby8rvm-ROM1dSreA&usqp=CAU'); */
+  background-image: url('https://www.pizzeriaitalianuova.it/img/sfondoindexmobile.jpg');
   font-family: "Poppins", sans-serif;
-}
-
-/* ###########################this section start the menu stiling ###################### */
-
-a{
-  text-decoration: none;
-}
-
-ul{
-  list-style: none;
-}
-
-/* Header */
-.header{
-  background-color: var(--black);
-  box-shadow: 1px 1px 5px 0px var(--grey);
-  position: sticky;
-  top: 0;
-  width: 100%;
-}
-
-/* Logo */
-.logo{
-  display: inline-block;
-  color: var(--white);
-  font-size: 50px;
-  margin-left: 10px;
-
-}
-
-/* Nav menu */
-.nav{
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  background-color: var(--black);
-  overflow: hidden;
-  
-}
-
-.menu a{
-  display: block;
-  padding: 30px;
-  color: var(--white);
-
-}
-
-.menu a:hover{
-  background-color: var(--grey);
-}
-
-.nav{
-  max-height: 0;
-  transition: max-height .5s ease-out;
-}
-
-/* Menu Icon */
-
-.hamb{
-  cursor: pointer;
-  float: right;
-  padding: 20px 20px;
-}
-
-
-.hamb-line {
-  background: var(--white);
-  display: block;
-  height: 2px;
-  position: relative;
-  width: 24px;
-  
-}
-
-.hamb-line::before,
-.hamb-line::after{
-  background: var(--white);
-  content: '';
-  display: block;
-  height: 100%;
-  position: absolute;
-  transition: all .2s ease-out;
-  width: 100%;
-}
-
-.hamb-line::before{
-  top: 5px;
-}
-
-.hamb-line::after{
-  top: -5px;
-}
-
-
-.side-menu {
-  display: none;
-}
-
-/* Toggle menu icon */
-
-.side-menu:checked ~ nav{
-  max-height: 100%;
-}
-
-.side-menu:checked ~ .hamb .hamb-line {
-  background: transparent;
-}
-
-.side-menu:checked ~ .hamb .hamb-line::before {
-  transform: rotate(-45deg);
-  top:0;
-
-}
-
-.side-menu:checked ~ .hamb .hamb-line::after {
-  transform: rotate(45deg);
-  top:0;
-}
-
-
-/* Responsiveness */
-
-
-
-/* ###########################this section end the menu stiling ###################### */
-
-
-/* class tittle html */
-/* .title{
   display: flex;
-  justify-content: center;
-  font-size:40px;
-  color:rgb(13, 213, 228);
-  font-family: Arial, Helvetica, sans-serif;
-} */
+  flex-direction: column;
+}
 
 .title1{
   display: flex;
@@ -152,14 +20,6 @@ ul{
   font-size:40px;
   color:rgb(13, 213, 228);
   font-family: Arial, Helvetica, sans-serif;
-}
-
-
-/* avalin dive ke shamele axs mishe  */
-.firstdive{
-  display: flex;
-  flex-direction: column;
-  font-family: 'Courier New', Courier, monospace;
 }
 
 /* csse tamame tag haie p  */
@@ -174,7 +34,7 @@ p{
 
 /* size image ha  */
 img{
-  width:200px;height:200px;
+  width:300px;height:200px;
 }
 
 /* class image o flex hash  */
@@ -205,7 +65,7 @@ img{
 }
 
 textarea {
-  width:500px;height:100px;
+  width:200px;height:30px;
 }
 
 button:hover {
@@ -214,55 +74,28 @@ button:hover {
 }
 
 /* media baraye taghir dsplay roie computer o mobile  */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   body {
     background-color: red;
   }
-  
-  /* media for menu  */
-  .nav{
-    max-height: none;
-    top: 0;
-    position: relative;
-    float: right;
-    width: fit-content;
-    background-color: transparent;
-  }
-  .menu li{
-    float: left;
-  }
-  .menu a:hover{
-    background-color: transparent;
-    color: var(--grey);
 
-  }
-
-  .hamb{
-    display: none;
-  }
-
-  /* media for menu  */
   .image {
     display: flex;  
     flex-direction: column;
   }
 
-  img {
-    width: 100%; height: 100%; margin: 0; padding: 0;
+  img{
+    width:100%;
+
   }
+
   h2{
     font-size: 100%;
   }
-  /* p {
-    font-size: 20px;
-  } */
 
   iframe {
-    width: 100%;
+    /* width: 200px;height: 200px; */
+    width: fit-content;
   } 
-
-  textarea {
-    width:100%;height:50px;
-  }
 
 }
