@@ -9,53 +9,56 @@
 body{
   background-image: url('Background.jpg');
   font-family: "Poppins", sans-serif;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .title1{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size:40px;
-  color:rgb(13, 213, 228);
-  font-family: Arial, Helvetica, sans-serif;
+  margin-block-start: 3%;
+  margin-left: 4%;
+  font-size:270%;
+  color:rgba(121, 16, 16, 0.829);
+  font-style: oblique;
+  border-style: outset;
+}
+
+.inframe{
+margin-left: 55%;
+width: 35%; height: 35%;
+border-style: outset;
 }
 
 /* csse tamame tag haie p  */
 p{
   font-size:15px;
-  color:#f5eded;
-  background-color: dimgray;
-  /* width: fit-content; comment= if u use this one u cannot position center */
+  color:#4b0202;
+  background-color: rgb(243, 199, 199);
   text-align: center;
 }
 
 
 /* size image ha  */
 img{
-  width:300px;height:200px;
+  width:250px;height:200px;
 }
 
 /* class image o flex hash  */
 .image{
   display: flex;
   justify-content: space-evenly;
-  /* flex-direction: column;
-  align-items: center; */
 } 
 
 .lableform{
-  margin-left: 20px;
+  margin-left: 5%;
   font-size: 20px;
-  color: rgba(29, 214, 228, 0.945);
+  color: brown;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .submitbutton{
   font-size: 20px;
-  color: white;
-  background-color: rgb(16, 233, 233);
+  color: red;
+  background-color: rgb(0, 0, 0);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width:90px;height:40px;
 }
@@ -93,9 +96,6 @@ button:hover {
     font-size: 100%;
   }
 
-  iframe {
-    /* width: 200px;height: 200px; */
-    width: fit-content;
-  } 
+ 
 
 }

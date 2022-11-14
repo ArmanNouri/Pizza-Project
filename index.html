@@ -8,9 +8,10 @@
   <body>
   
     <div class="title1" >
-      <h2>Welcome to this pizza shop</h2><br>
-        <iframe width="360" height="315" src="https://www.youtube.com/embed/bwGE1Ggd2kQ" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>
-    </div><br>
+      <h2>Welcome to this pizza shop</h2>
+    </div><br><br>
+      <iframe class="inframe" src="https://www.youtube.com/embed/bwGE1Ggd2kQ" title="YouTube video player"  allow="autoplay; encrypted-media;" allowfullscreen></iframe>
+    <br><br><br>
 
     <div class="image">
       
@@ -28,28 +29,27 @@
         <p>Vegeteriana Pizza</p>
         <img class="img3" src="vegeteriana.jpg" alt="A Vegeteriana Pizza.">
       </div>
-
-      <div class="Pizzas">
-        <p>Ham Pizza</p>
-        <img class="img4" src="ham.jpg" alt="A Ham Pizza."></a>
-      </div>
       
     </div><br><br>
 
+    <h2 class="title1" >For ordering your pizza please complete this form</h2><br>
     <!-- form baraye ordere pizza -->
     <div>
       <form action="https://formsubmit.co/el/dirogi/openeyesn2y@gmail.com" method="POST" class="lableform"> 
 
-        <h2 class="title1" >For ordering your pizza please complete this form</h2>
+        <!-- <h2 class="title1" >For ordering your pizza please complete this form</h2> -->
 
         <lable for="flname">First and last name:</label><br>
-        <input class="input-info" type="text" id="flname" name="flname" placeholder="Name"><br>
+        <input class="input-info" type="text" id="flname" name="flname" placeholder="Name"><br><br>
 
         <lable for="npizza">How many pizzas do you want:</lable><br>
-        <input class="input-info" type="number" id="npizza" name="npizza" placeholder="Number"><br>
+        <input class="input-info" type="number" id="npizza" name="npizza" placeholder="Number"><br><br>
+
+        <lable for="mnumber">Your mobile number:</lable><br>
+        <input class="input-info" type="number" id="mnumber" name="mnumber" placeholder="Number"><br><br>
 
         <label for="hadress">Where is your address:</label><br>
-        <input class="input-info" type="adress" id="hadress" name="hadress" placeholder="Adress"><br><br>
+        <input class="input-info" type="adress" id="hadress" name="hadress" placeholder="Adress"><br><br><br>
 
         <input type="checkbox" id="checkbox" name="fpizza">
         <label for="fpizza">Do you want a free pizza:</label><br><br>
@@ -57,10 +57,13 @@
         <input type="radio" id="Margherita" name="kind-pizza" value="pizza">
         <label for="Margherita">Margherita</label><br>
 
+        <input type="radio" id="Vegeteriana" name="kind-pizza" value="pizza">
+        <label for="Vegeteriana">Vegeteriana</label><br>
+
         <input type="radio" id="Diavola" name="kind-pizza" value="pizza">
         <label for="Diavola">Diavola</label><br><br>
 
-        <label for="comment">Write what you want more</label><br>
+        <label for="comment">Write what you want more</label><br><br>
         <textarea name="comment" form="usrform" placeholder="what u want"></textarea><br><br>
   
           <button class="submitbutton" type="submit">Send</button>
